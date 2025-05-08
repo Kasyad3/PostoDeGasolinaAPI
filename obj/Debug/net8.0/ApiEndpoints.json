@@ -1,0 +1,43 @@
+[
+  {
+    "ContainingType": "PostoDeGasolinaAPI.Controllers.PostoDeGasolinaController",
+    "Method": "ComprarCombustivel",
+    "RelativePath": "api/PostoDeGasolina/ComprarCombustivel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigoCombustivel",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "litros",
+        "Type": "System.Double",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PostoDeGasolinaAPI.Controllers.PostoDeGasolinaController",
+    "Method": "Extrato",
+    "RelativePath": "api/PostoDeGasolina/Extrato",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PostoDeGasolinaAPI.Controllers.PostoDeGasolinaController",
+    "Method": "ListaCombustiveis",
+    "RelativePath": "api/PostoDeGasolina/ListaCombustiveis",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
